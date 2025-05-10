@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url("img/background.png") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .menu-container {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 0 20px #FFD700;
+    gap: 20px;   
+}
+  
+  .game-title {
+    color: #FFD700;
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 8px #000;
+  }
+  
+  .menu-buttons button {
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-buttons button:hover {
+    background-color: #fff;
+    color: #111;
+    box-shadow: 0 0 10px #FFD700;
+  }
+  .geekChill{
+    font-size: 20px;
+    color: #FFD700;
+    font-weight: bold;
+  }
+  .inst{
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #FFD700;
+    border-radius: 50px;
+    background-color: #FFD700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
